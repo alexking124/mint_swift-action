@@ -1,0 +1,24 @@
+{
+  "name": "mint_swift-action",
+  "version": "1.0.0",
+  "description": "GitHub Action for Mint (Swift)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexking124/mint_swift-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexking124/mint_swift-action/issues"
+  },
+  "homepage": "https://github.com/alexking124/mint_swift-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/exec": "^1.0.3"
+  }
+}

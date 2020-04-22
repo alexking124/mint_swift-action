@@ -1,0 +1,10 @@
+name: 'Mint Swift'
+description: 'Install Swift CLI Tools Using Mint'
+inputs:
+  path-to-mintfile:
+    description: 'The path to your Mintfile relative to your repo's root directory'
+    required: true
+    default: 'Mintfile'
+runs:
+  using: 'node13'
+  main: 'index.js'
