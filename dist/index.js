@@ -948,8 +948,10 @@ const core = __webpack_require__(470);
 const exec = __webpack_require__(986);
 
 async function run() {
-    const directory = await exec.exec('pwd')
-    console.log(directory)
+    await exec.exec('pwd')
+    await exec.exec('which mint')
+    await exec.exec('brew outdated mint')
+    await exec.exec('brew install mint')
 }
 
 run()
