@@ -7,4 +7,4 @@ inputs:
     default: 'Mintfile'
 runs:
   using: 'node13'
-  main: 'index.js'
+  main: 'dist/index.js'
