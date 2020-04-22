@@ -7,4 +7,4 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: alexking124/mint_swift-action
+      uses: alexking124/mint_swift-action@master
