@@ -1,5 +1,8 @@
 name: 'Mint Swift'
 description: 'Install Swift CLI Tools Using Mint'
+branding:
+  icon: 'terminal'
+  color: 'orange'
 inputs:
   path-to-mintfile:
     description: 'The path to your Mintfile relative to your repo''s root directory'
