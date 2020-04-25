@@ -950,7 +950,7 @@ const exec = __webpack_require__(986);
 async function run() {
     try {
         // await exec.exec('pwd')
-        await exec.exec('which mint')
+        await exec.exec('which log')
         await exec.exec('brew outdated mint')
         await exec.exec('brew install mint')
     }
