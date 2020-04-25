@@ -9,7 +9,7 @@ async function run() {
         await exec.exec('brew install mint')
     }
     catch (error) {
-        core.setFailed(error.message);
+        core.setFailed(error);
     }
 }
 
